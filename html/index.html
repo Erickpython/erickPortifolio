@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Erick Wambugu</title>
+
+  <!-- Fonts & Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css"/>
+  <link rel="stylesheet" href="../css/style.css" />
+
+</head>
+<body>
+
+  <header>
+    <nav>
+      <a href="#HOME"><button>HOME</button></a>
+      <a href="#ABOUT"><button>ABOUT</button></a>
+      <a href="#RESUME"><button>RESUME</button></a>
+      <a href="#PROJECTS"><button>PROJECTS</button></a>
+      <a href="#CONTACT"><button>CONTACT</button></a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="HOME" data-aos="fade-in">
+      <h1>MR. ERICK WAMBUGU</h1>
+      <h4>
+        <i class="fas fa-cloud-sun-rain"></i> Meteorologist |
+        <i class="fas fa-chalkboard-teacher"></i> Teacher Leader |
+        <i class="fas fa-code"></i> Web Developer
+      </h4>
+      <a href="your-cv-link.pdf" target="_blank">
+        <button><i class="fas fa-download"></i> Download My CV</button>
+      </a>
+    </section>
+
+    <section id="ABOUT" data-aos="fade-up">
+      <h2>About Me</h2>
+      <p><strong>Erick Wambugu</strong> is a passionate Meteorologist, Educator, and aspiring Web Developer...</p>
+      <p>Currently serving as a Teacher Leader under the <strong>Teach For Kenya</strong> fellowship at Ngwata Primary & Junior School in Machakos County.</p>
+      <p>Founder of <a href="https://www.linkedin.com/company/read-connect/" target="_blank">Read Connect</a>—a literacy initiative that empowers learners through digital tools and community engagement.</p>
+    </section>
+
+    <section id="RESUME" data-aos="fade-up">
+      <h2>Resume</h2>
+
+      <div>
+        <h3><i class="fas fa-briefcase"></i> Work Experience</h3>
+        <ul>
+          <li>
+            <strong>Founder, Read Connect</strong> <br />
+            <em>March 2024 – Present</em><br />
+            Started a grassroots literacy initiative with a free e-library and reading tools.
+          </li>
+          <li>
+            <strong>Fellow, Teach For Kenya</strong> <br />
+            <em>Jan 2024 – Present</em><br />
+            Leading educational change in underserved schools while developing leadership and instructional skills.
+          </li>
+          <li>
+            <strong>Intern, Kenya Meteorological Department (IMTR)</strong> <br />
+            <em>May – Aug 2022</em><br />
+            Hands-on experience in forecasting models, scripting, satellite analysis.
+          </li>
+        </ul>
+      </div>
+
+      <div>
+        <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+        <ul>
+          <li>
+            <strong>South Eastern Kenya University</strong><br />
+            BSc Meteorology – <em>First Class Honors (2018–2022)</em>
+          </li>
+          <li>
+            <strong>Kianjoya Secondary School</strong><br />
+            KCSE – <em>B– (56 Points), 2017</em>
+          </li>
+        </ul>
+      </div>
+
+      <div>
+        <h3><i class="fas fa-tools"></i> Skills</h3>
+        <ul>
+          <li>Weather & Climate Data Analysis</li>
+          <li>Web Development – HTML5, CSS3, GitHub</li>
+          <li>Python (Beginner)</li>
+          <li>Instructional Leadership & Facilitation</li>
+          <li>Community Engagement & Program Design</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="PROJECTS" data-aos="fade-up">
+      <h2>Projects</h2>
+      <ul>
+        <li><strong>Read Connect:</strong> e-Library & community literacy program.</li>
+        <li><strong>Weather Dashboard (coming soon):</strong> Climate data visualizer built with Python.</li>
+        <li><strong>Personal Portfolio Website:</strong> You’re viewing it now!</li>
+      </ul>
+    </section>
+
+    <section id="CONTACT" data-aos="fade-up">
+      <h2>Contact Me</h2>
+      <form action="https://formspree.io/f/xblkdwyj" method="POST">
+        <label for="name">Name</label><br />
+        <input type="text" id="name" name="name" required /><br />
+
+        <label for="email">Email</label><br />
+        <input type="email" id="email" name="email" required /><br />
+
+        <label for="message">Message</label><br />
+        <textarea id="message" name="message" rows="5" required></textarea><br />
+
+        <button type="submit"><i class="fas fa-paper-plane"></i> Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Erick Wambugu. All Rights Reserved.</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({ duration: 1000, once: true });
+  </script>
+</body>
+</html>
